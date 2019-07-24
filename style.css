@@ -1,0 +1,75 @@
+/*TAGS*/
+body{
+	margin: 0px;
+	background-color: rgb(128, 84, 84);
+}
+nav{
+	background-color: rgba(17,17,17,0.8);
+	color: white;
+	padding: 3px;
+	position: fixed;
+	width: 100%;
+}
+li{
+	border: 1px solid black;
+	padding: 4px;
+	font-family: Verdana;
+}
+
+/*IDS*/
+#Heading{
+	font-family: Impact;
+	font-size: 2em;
+	margin-left: 5px;
+}
+#Input{
+	margin-top: 100px;
+	margin-left: 10px;
+	padding: 1em;
+	font-size: 1.2em;
+	border: 3px solid rgba(17,17,17,0.8);
+}
+#Clear,#Enter{
+	margin-top: 100px;
+	margin-left: 10px;
+	padding: 1em;
+	font-size: 1.2em;
+	border-radius: 10px;
+	background-color: rgba(96, 24, 24,0.7);
+	border: 3px solid rgba(17,17,17,0.8);
+	color: white;
+}
+
+/*CLASSES*/
+.tasks{
+		border-radius: 10px;
+	border: 1px solid black;
+	transition: all 0.3s linear;
+	background-color: rgba(231, 118, 142,0.3);
+}
+.tasks:hover{
+	cursor: pointer;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+li{
+	list-style: none;
+	margin: 10px;
+}
+ul{
+	list-style-type: none;
+ 	 padding: 1em;
+
+}
+li.done
+{
+	text-decoration: line-through;
+}
+.btn{
+	color: white;
+	background-color: black;
+	border: 3px solid rgba(96, 24, 24,0.9);
+	padding: 0.4em;
+	margin: 3px;
+	margin-right: 100px;
+	right:0;
+}
